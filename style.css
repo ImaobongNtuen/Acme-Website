@@ -1,0 +1,107 @@
+body{
+    background-color: #F4F4F4;
+}
+.navbar{
+    height: 100px;
+    background-color: #35424A;
+    color: white;
+}
+.navbar-brand{
+    height: 90px;
+    padding-top: 30px;
+}
+/* .navbar-nav{
+    margin-right: 100px;
+} */
+
+.navbar-light .navbar-brand {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.navbar-light .navbar-brand:hover{
+    color: #e8491d;
+}
+.navbar-collapse{
+    font-size: 17px
+}
+.navbar-light .navbar-nav .nav-link.active {
+    color:#e8491d;
+    font-weight: bold;
+}
+.navbar-collapse{
+    background-color: #35424A !important ; 
+    z-index: 9 !important;
+}
+
+.navbar-light .navbar-nav .nav-link  {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+   color:#818f97;
+   font-weight: bold;
+}
+.main-col{
+    background-image: url(./images/laptop4.jpg);
+    background-repeat: repeat;
+}
+.main-coltxt{
+    padding-top: 145px;
+    padding-bottom: 50px;
+    color: white;
+}
+.form-inline{
+    margin-left: 150px;
+}
+
+.main-col2{
+    background-color: #35424A;
+    padding: 30px;
+}
+
+/* .html-css-graimg{
+    padding: 40px 100px;
+} */
+
+@media screen and (max-width: 425px){
+    .form-inline{
+        margin-left: 0px;
+    }
+    .quoteform{
+        flex-direction: column;
+    }
+    .aboutacmeB{
+        flex-direction: column;
+    }
+    
+}
+@media screen and (max-width: 320px){
+    .navbar-light .navbar-brand{
+        font-size:25px
+    }
+    @media screen and (max-width: 768px){
+       .aboutacmeB{
+            display: flex;
+            flex-direction: column;
+ }
+        /* .navbar-nav{
+            margin-right: 0px; */
+        }
+    /* .html-css-graimg{
+        padding: 15px;
+    } */
+/*
+}
+
+@media screen and (max-width: 375px){
+    .navbar{
+        margin-left: -100px;
+    }
+    
+}
+
+
+    /* .navbar{
+        margin-left: -115px; */
+
+}
